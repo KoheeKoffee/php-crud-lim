@@ -25,7 +25,7 @@ if (isset($_POST["submit"])) {
     } elseif (!preg_match('/^\d{11,12}$/', $contact)) {
         $_SESSION['message'] = "
         <p>Contact must be a number and must be 11 or 12 digits only!</p>
-        <img src='https://media.tenor.com/d27gEByLFVUAAAAM/lixovsk-hoshimi-miyabi.gif'alt='GIF' width='220'>";
+        <img src='https://i.redd.it/tykd49mol25f1.gif'alt='GIF' width='220'>";
         $_SESSION['popupType'] = "error";
         $showPopup = true;
         header("Location: " . $_SERVER['PHP_SELF']);
